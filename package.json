@@ -1,0 +1,41 @@
+{
+  "name": "prox-challenge",
+  "version": "1.0.0",
+  "description": "Multimodal Claude support agent for the Vulcan OmniPro 220 welder.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "npm run check",
+    "check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prox-technologies/prox-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/prox-technologies/prox-challenge/issues"
+  },
+  "homepage": "https://github.com/prox-technologies/prox-challenge#readme",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.126",
+    "lucide-react": "^1.14.0",
+    "next": "^16.2.4",
+    "pdf-parse": "^2.4.5",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.3.0",
+    "eslint-config-next": "^16.2.4",
+    "typescript": "^6.0.3"
+  }
+}
