@@ -16,6 +16,8 @@ Open `http://localhost:3000`.
 
 `ANTHROPIC_API_KEY` enables live Claude reasoning. Without a key, the app still runs in deterministic manual-tool mode so reviewers can inspect the UX immediately.
 
+The hosted Vercel demo intentionally does not include a project-owned Anthropic key. It demonstrates the full UI and deterministic manual tools; reviewers can clone the repo and add their own `.env` key to exercise live Claude Agent SDK responses.
+
 ## What It Does
 
 - Answers duty-cycle questions with exact manual ratings.
